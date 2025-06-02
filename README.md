@@ -7,4 +7,5 @@ Ghanesh Narasimhan, Dennice F. Gayme, Charles Meneveau; An extended analytical w
 
 Full-text can be viewed on researchgate at: https://www.researchgate.net/publication/392165255_An_extended_analytical_wake_model_and_applications_to_yawed_wind_turbines_in_atmospheric_boundary_layers_with_different_levels_of_stratification_and_veer
 
+#File description
 
