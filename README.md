@@ -2,7 +2,7 @@
 
 This repository provides a MATLAB implementation for computing the steady-state wake structure behind yawed or unyawed wind turbines operating in Atmospheric Boundary Layer (ABL) flows. The model incorporates the effects of wind veer and thermal stratification present in ABL environments.
 
-The extended wake model integrates a Gaussian wake formulation with an ABL model that self-consistently predicts the three-dimensional Ekman wind profile under both neutral and stable stratification. This coupling enables accurate prediction of wake behavior across a broad range of atmospheric conditions.
+The extended wake model integrates a Gaussian wake formulation for yawed wind turbine wakes with an ABL model that self-consistently predicts the three-dimensional Ekman wind profile under both neutral and stable stratification. This coupling enables accurate prediction of wake behavior across a broad range of atmospheric conditions.
 
 The model's predictions have been validated against Large Eddy Simulation (LES) data, showing good agreement and confirming its capability to capture key wake characteristics under various atmospheric conditions.
 
