@@ -20,7 +20,7 @@ Full-text also available on ResearchGate:
 
 ## 📄 Files
 
-- `extended_wake_model.mlx` – Main MATLAB Live Script containing the full wake model implementation. Run this script to compute the wake.
+- `extended_wake_model.mlx` – Main MATLAB Live Script containing the full wake model implementation. Run this script to compute the wake shape for yawed or unyawed wind turbines placed within neutral or stable ABL flows.
 
 ---
 
