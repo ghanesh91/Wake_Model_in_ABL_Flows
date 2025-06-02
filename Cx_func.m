@@ -1,4 +1,4 @@
-function [Cx,A_star,xo,kw]= Cx_func(beta,Ct,R,u_star,Uh,zh,h,x,A1,B1)
+function [Cx,A_star,xo,kw]= Cx_func(beta,Ct,R,u_star,Uh,zh,h,x,A1,B1,model_type)
     
     D         = 2*R;
     A_star    = (1+sqrt(1-Ct*cos(beta)^2))./ ...
@@ -7,7 +7,15 @@ function [Cx,A_star,xo,kw]= Cx_func(beta,Ct,R,u_star,Uh,zh,h,x,A1,B1)
     xi0_tilde = R*sqrt(A_star);
 
     Iu_zh   = sqrt(A1*log(zh/h)+B1)*(u_star/Uh);
-    kw      = ( 0.021^6 + (0.33*Iu_zh)^6 )^(1/6);
+    if (model_type ==1)
+         kw      = 0.05;
+    end
+    if (model_type==2)
+        kw = 0.075;
+    end
+    if (model_type==3)
+        kw=( 0.021^6 + (0.33*Iu_zh)^6 )^(1/6);
+    end
 
     sigma2  = (kw*x+0.4*xi0_tilde).* ...
               (kw*x+0.4*xi0_tilde*cos(beta));
