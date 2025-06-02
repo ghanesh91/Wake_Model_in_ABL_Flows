@@ -45,7 +45,7 @@ Define the following input parameters in the main script:
 
 ## 📌 Notes
 
-- For questions or collaborations, please contact the Ghanesh Narasimhan at naras062@umn.edu.
+- For questions or collaborations, please contact Dr. Ghanesh Narasimhan at naras062@umn.edu.
 
 
 
