@@ -13,7 +13,7 @@ The implementation is based on the following peer-reviewed publication:
 > *Journal of Renewable and Sustainable Energy*, **17**(3), 033302.  
 > [https://doi.org/10.1063/5.0251305](https://doi.org/10.1063/5.0251305)
 
-Full-text also available on ResearchGate:  
+Full-text can be viewed on ResearchGate:  
 [https://www.researchgate.net/publication/392165255_An_extended_analytical_wake_model_and_applications_to_yawed_wind_turbines_in_atmospheric_boundary_layers_with_different_levels_of_stratification_and_veer](https://www.researchgate.net/publication/392165255_An_extended_analytical_wake_model_and_applications_to_yawed_wind_turbines_in_atmospheric_boundary_layers_with_different_levels_of_stratification_and_veer)
 
 ---
